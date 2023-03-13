@@ -2,7 +2,7 @@
 
 #include "librerias.h"
 
-void imprimirVector(int n,double arr[])
+void imprimirVector(int n,double *arr)
 {
     int i;
     for (i=0;i<n;i++)

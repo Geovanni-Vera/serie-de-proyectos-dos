@@ -2,7 +2,7 @@
 
 #include "librerias.h"
 
-void leerVector(int n, double arr[])
+void leerVector(int n, double *arr)
 {
     char str[128];
     int i;
