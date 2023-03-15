@@ -1,4 +1,4 @@
-/*imprimirVector.c*/
+/*imprimirVector.c v.3.1*/
 
 #include "librerias.h"
 

@@ -1,4 +1,4 @@
-/*ValidarDimension*/
+/*ValidarDimension v.3.1*/
 
 #include "librerias.h"
 

@@ -1,4 +1,5 @@
-/*Ejemplo-11.c*/
+/*Ejemplo-13.c*/
+/*Version 3.1*/
 //cabecera con librerias
 #include "librerias.h"
 
@@ -21,7 +22,7 @@ int main(void)
     printf("Construyendo el arreglo dinamico ... \n");
     //Cracion del vector 
     X = construirVector(N);
-    printf("Escriba los valores de estos elementos ... \n ");
+    printf("Recuperando los datos del archivo ... \n ");
     leerVector(N,X);
     printf("Los valores almacenados en el vector son ... \n");
     imprimirVector(N,X);
