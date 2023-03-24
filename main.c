@@ -9,7 +9,7 @@ int validarDimension(void);
 double **construirMatriz(int,int);
 void leerMatriz(char,int,int,double**);
 void imprimirMatriz(int,int,double**);
-destruirMatriz(int,double**);
+void destruirMatriz(int,double**);
 
 //funcion principal main
 int main(void)
@@ -20,7 +20,7 @@ int main(void)
     M = validarDimension();
     printf("Escribe el numero de columnas de la matriz ...\n");
     N = validarDimension();
-    printf("Construyendo la Matriz A(%dx%d)...\n");
+    printf("Construyendo la Matriz A( %d x %d )...\n",M,N);
     A =construirMatriz(M,N);
     printf("Introduzca los elementos de la matriz ... \n ");
     leerMatriz('A',M,N,A);
