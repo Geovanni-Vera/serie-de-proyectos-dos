@@ -9,7 +9,9 @@ void imprimirMatriz(int m, int n, double mat[][NMC])
     {
         for(j=0;j<n;j++)
         {
-            printf("\t%.51e",mat[i][j]);
+            printf("\t%.2le",mat[i][j]);
+            //tabulador \t  %.2 de dos ceros despues del punto 
+            //le notacion exponencial
         }
         printf("\n");
     }
