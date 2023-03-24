@@ -2,7 +2,7 @@
 
 #include "librerias.h"
 
-void imprimirMatriz(int m, int n, double mat[][NMC])
+void imprimirMatriz(int m, int n, double **mat)
 {
     int i,j;
     for (i=0;i<m;i++)
