@@ -6,11 +6,16 @@ int validarDimension(void)
 {
     char str[128];
     int n;
-    do
-    {
-        printf("N=? ");
+   for(;;)
+   {
+        printf("Valor=? \n");
         fgets(str,128,stdin);
-        n = (int)atoi(str);
-    } while (n<=0 || n>NMAX);
+        n=(int)atoi(str);
+        if (n>0 && n <= NMR)
+        {
+            if(n<=NMC) break;
+        }
+
+   }
     return n;
 }

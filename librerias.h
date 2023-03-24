@@ -1,4 +1,6 @@
 /*Librerias.h*/
 #include <stdio.h>
 #include <stdlib.h>
-#define NMAX 10
+
+#define NMR 10
+#define NMC 10
