@@ -2,7 +2,7 @@
 
 #include "librerias.h"
 
-void leerMatriz(char ch, int m, int n, double mat[][NMC])
+void leerMatriz(char ch, int m, int n, double **mat)
 {
     char str[128];
     int i,j;
